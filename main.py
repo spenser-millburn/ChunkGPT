@@ -16,7 +16,7 @@ def extract_notes(
     """
     Extracts notes from a specified range of pages in a PDF.
     """
-    typer.echo(f"Extracting text from {pdf_path}, pages {page_start} to {page_end}")
+    #  typer.echo(f"Extracting text from {pdf_path}, pages {page_start} to {page_end}")
     ng = NoteGenerator(pdf_path)
     print(ng.process_text(start_page= page_start, end_page = page_end, chunk_size=chunk_size))
 
