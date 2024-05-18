@@ -1,6 +1,6 @@
 # ChunkGPT
 
-ChunkGPT is a Python application that chunks PDFs into manageable sections and utilizes OpenAI's large language models to summarize the text. It's designed for anyone needing to quickly extract and comprehend the main points from extensive PDF documents.
+ChunkGPT is a Python application that chunk documents (currently limited to PDFs) into manageable sections and utilizes OpenAI's large language models to summarize the text. It's designed for anyone needing to quickly extract and comprehend the main points from extensive PDF documents.
 
 ## Features
 
