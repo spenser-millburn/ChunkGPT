@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+from openai import OpenAI
 
 class TextGeneration:
-    def __init__(self, topic: str):
+    def __init__(self, topic: str = "everything"):
         self.client = OpenAI()
         self.topic = topic
 
