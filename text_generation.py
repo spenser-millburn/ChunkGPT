@@ -12,7 +12,7 @@ class TextGeneration:
             system_prompt = f"You are a helpful assistant that knows a lot about {self.topic} and only responds with JSON"
 
         return self.client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": f"{user_prompt}"},
